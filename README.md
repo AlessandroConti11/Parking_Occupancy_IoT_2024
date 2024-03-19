@@ -8,7 +8,7 @@ Author:
 
 License: [MIT license](LICENSE).
 
-Tags: .
+Tags: '#C++', #Cpp', '#internet_of_things', '#IoT', '#parking_spot', '#polimi', '#software_engineering'.
 
 
 ## University
