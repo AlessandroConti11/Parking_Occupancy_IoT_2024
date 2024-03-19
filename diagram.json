@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Alessandro Conti, Sara Casali, Matteo Lazzeri",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -75.3,
+      "left": -215.3,
+      "attrs": { "distance": "400" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "ultrasonic1:VCC", "esp:VIN", "red", [ "v0" ] ],
+    [ "ultrasonic1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "esp:D5", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "esp:D27", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
