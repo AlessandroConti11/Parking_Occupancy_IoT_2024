@@ -17,7 +17,7 @@ Politecnico di Milano.
 
 Academic Year: 2023/2024.
 
-054323 - Internet of Things - professor Cesana Matteo.
+054323 - Internet of Things - professor Cesana Matteo - 1<sup>st</sup> challenge.
 
 
 ## Specification
